@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>&lt;model-viewer&gt; House Building Example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="demo-styles.css">
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+</head> 
+<body>
+     <div class="desp">
+        <h1>Modern Micro-Apartment Design</h1>
+        <p>Explore a detailed 3D model of a contemporary micro-apartment, perfect for urban living. This design emphasizes efficiency and style, offering a glimpse into the future of compact home living.</p>
+        <p>Whether you are planning a small house project or looking for inspiration, this interactive model can help visualize modern building concepts.</p>
+
+    </div>
+    <div id="card">
+        <!-- Display a 3D model related to house building: -->
+        <model-viewer src="https://cdn.glitch.global/c3e7e019-30e2-4e9c-9481-b853ed151612/cyberpunk_micro-apartments.glb?v=1729068367958"
+            ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+            poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
+            alt="A 3D model of a modern micro-apartment"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate ar>
+        </model-viewer>
+        
+        <section class="attribution">
+            
+            <span>Model by <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">Envidox Solution</a></span>
+            <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+                <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+                <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+            </a>
+        </section>
+
+         <model-viewer src="https://cdn.glitch.global/c3e7e019-30e2-4e9c-9481-b853ed151612/wooden_house_building.glb?v=1729070061031"
+            ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+            poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
+            alt="A 3D model of a modern micro-apartment"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate ar>
+        </model-viewer> 
+
+    </div>
+    
+   
+    
+
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
